@@ -1,4 +1,4 @@
-const TOKEN_URL = "https://gw.api.bolagsverket.se/token";
+const TOKEN_URL = "https://portal.api.bolagsverket.se/oauth2/token";
 
 interface TokenResponse {
   access_token: string;
